@@ -2,7 +2,7 @@
   "name": "metaweblog-api",
   "version": "1.0.0",
   "description": "MetaWeblog API for node.js",
-  "main": "index.js",
+  "main": "lib/metaWeblog.js",
   "directories": {
     "test": "tests"
   },
