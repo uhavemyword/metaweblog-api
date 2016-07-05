@@ -1,0 +1,32 @@
+{
+  "name": "metaweblog-api",
+  "version": "1.0.0",
+  "description": "MetaWeblog API for node.js",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "xmlrpc": "^1.3.2"
+  },
+  "devDependencies": {
+    "xmlrpc": "^1.3.2"
+  },
+  "scripts": {
+    "test": "node tests\\test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uhavemyword/metaweblog-api.git"
+  },
+  "keywords": [
+    "MetaWeblog",
+    "API"
+  ],
+  "author": "Peng Chen <peng-chen@live.com> (https://github.com/uhavemyword)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uhavemyword/metaweblog-api/issues"
+  },
+  "homepage": "https://github.com/uhavemyword/metaweblog-api#readme"
+}
