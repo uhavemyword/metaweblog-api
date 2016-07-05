@@ -4,36 +4,46 @@ The **MetaWeblog API** is a programming interface that enables weblog entries to
 
 **MetaWeblog API for node.js** is a node module which implements the API, and provides you full features of the API with well documented functions.
 
-## Features
+## Installation
 
-All method calls will return a `Promise` object which enables you to handle response async.
+```bash
+npm install metaweblog-api
+```
 
-## Requirements
+## API Documentation
 
-- [xmlrpc](https://www.npmjs.com/package/xmlrpc) package
-
-## Install
-
-TODO: will publish to npm soon.
+http://uhavemyword.github.io/metaweblog-api
 
 ## Usage
 
 ```javascript
-var MetaWeblog = require('./lib/metaWeblog');
-var metaWeblog = new MetaWeblog(apiUri);
+var MetaWeblog = require('metaWeblog-api');
+var apiUrl = 'http://localhost:3000/'; // use your blog API instead
+var metaWeblog = new MetaWeblog(apirul);
 
 // getUsersBlogs
 metaWeblog.getUsersBlogs(appKey, username, password)
   .then(blogInfo => {
-      // handle the blog information here
+    // handle the blog information here
+  });
+  .catch(error => {
+    console.log(error);
   });
 ```
 
 Please check tests\test.js for more examples.
 
-## API Documentation
+## Features
 
-TODO:
+All method calls will return a `Promise` object which enables you to handle response async.
+
+## Tests
+To run the test suite, first install the dependencies, then run `npm test`:
+
+```bash
+npm install
+npm test
+```
 
 ## License
 

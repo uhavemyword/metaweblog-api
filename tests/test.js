@@ -4,7 +4,7 @@ const username = 'MetaWeblog'; // use your username instead.
 const password = 'Test_0123';
 
 const MetaWeblog = require('./../lib/metaWeblog');
-const metaWeblog = new MetaWeblog('http://www.cnblogs.com/' + username + '/services/metaweblog.aspx' );
+const metaWeblog = new MetaWeblog('http://www.cnblogs.com/' + username + '/services/metaweblog.aspx');
 
 var blogid, postid;
 
