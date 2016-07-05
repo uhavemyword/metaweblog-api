@@ -12,7 +12,7 @@ npm install metaweblog-api
 
 ## API Documentation
 
-http://uhavemyword.github.io/metaweblog-api
+http://uhavemyword.github.io/metaweblog-api/MetaWeblog.html
 
 ## Usage
 
