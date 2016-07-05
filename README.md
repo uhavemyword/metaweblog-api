@@ -37,6 +37,6 @@ TODO:
 
 ## License
 
-MIT
+[MIT](LICENSE)
 
 **Enjoy!**
