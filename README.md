@@ -17,7 +17,7 @@ http://uhavemyword.github.io/metaweblog-api
 ## Usage
 
 ```javascript
-var MetaWeblog = require('metaWeblog-api');
+var MetaWeblog = require('metaweblog-api');
 var apiUrl = 'http://localhost:3000/'; // use your blog API instead
 var metaWeblog = new MetaWeblog(apirul);
 
