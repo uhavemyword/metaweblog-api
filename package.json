@@ -3,7 +3,7 @@
   "version": "1.0.2",
   "description": "MetaWeblog API for node.js",
   "main": "./lib/metaWeblog.js",
-  "typings": "./metaweblog-api.d.ts",
+  "typings": "./lib/metaweblog-api.d.ts",
   "directories": {
     "test": "tests"
   },
