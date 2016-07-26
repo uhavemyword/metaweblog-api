@@ -8,6 +8,7 @@
     "test": "tests"
   },
   "dependencies": {
+    "@types/es6-promise": "0.0.28",
     "xmlrpc": "^1.3.2"
   },
   "devDependencies": {
