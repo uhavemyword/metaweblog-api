@@ -46,7 +46,7 @@ declare namespace MetaWeblog {
     interface MediaObject {
         name: string;
         type: string;
-        bits: string;
+        bits: Buffer;
     }
 
     interface Source {

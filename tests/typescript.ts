@@ -73,7 +73,7 @@ metaWeblog.getUsersBlogs(appKey, username, password)
         var media = {
             name: 'test.jpg',
             type: 'image/jpg',
-            bits: imageFile
+            bits: new Buffer(imageFile, 'binary')
         }
         metaWeblog.newMediaObject(blogid, username, password, media)
             .then(urlData => {
