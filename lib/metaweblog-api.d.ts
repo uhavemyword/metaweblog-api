@@ -5,7 +5,7 @@
 // Definitions by: Peng Chen <https://github.com/uhavemyword>
 
 declare class MetaWeblog {
-        constructor(options: string | any);
+        constructor(uri: string);
         getUsersBlogs(appKey: string, username: string, password: string): Promise<MetaWeblog.BlogInfo[]>;
         getRecentPosts(blogid: string, username: string, password: string, numberOfPosts: number): Promise<MetaWeblog.Post[]>;
         getCategories(blogid: string, username: string, password: string): Promise<MetaWeblog.CategoryInfo[]>;
